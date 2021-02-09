@@ -4,10 +4,11 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 20px;
+  padding: 0 0.4em 0 0.4em;
 }
 
-html, body {
+body {
+  padding: 0 0.4em 0 0.4em;
   margin: 0;
   border: 0;
   font-display: auto;

@@ -1,6 +1,6 @@
 /***** Global *****/
 /* Body */
-body {
+html, body {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.27), rgba(255, 255, 255, 0.85));    color: #000305;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: Arial, sans-serif;

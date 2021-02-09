@@ -1,8 +1,6 @@
-.header {
+#banner {
   background: #fafafa;
   display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
   padding: 0 0.4em 0 0.4em;
 }
@@ -18,4 +16,22 @@ body {
   color: #222;
   display: flex;
   flex-direction: column;
+}
+
+#menu > ul {
+  display:inline;
+  margin-top: 0.4em;
+  list-style-type: none;
+  padding-bottom: 0.2em;
+  border-bottom: 10px #000000;
+}
+#menu > ul > li {
+  display: inline;
+  font-size: large;
+}
+#menu > ul > li + li {
+  padding-left: 1em;
+}
+#menu > ul > li.active {
+  font-weight: bold;
 }
